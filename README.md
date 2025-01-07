@@ -1,6 +1,19 @@
 # Real-Estate-predictions
-
 Machine Learning project for M2 actuarial ISUP
+--- 
+- [Real-Estate-predictions](#real-estate-predictions)
+  - [Machine Learning project for M2 actuarial ISUP](#machine-learning-project-for-m2-actuarial-isup)
+- [Machine Learning](#machine-learning)
+  - [Données](#données)
+    - [Transactions immobilières](#transactions-immobilières)
+    - [Autres données](#autres-données)
+  - [Rapport](#rapport)
+- [Data Visualisation](#data-visualisation)
+
+
+---
+
+# Machine Learning
 
 ## Données 
 
@@ -38,3 +51,8 @@ Pour tenter de prédire les prix futurs, nous allons utiliser les données expli
 ## Rapport
 
 Le rapport est disponible sous format pdf ou ipynb selon les préférences et concerne les données de l'île-de-France. (75, 77, 78, 91, 92, 93, 94, 95)
+
+--- 
+
+# Data Visualisation
+
