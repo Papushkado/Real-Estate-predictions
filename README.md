@@ -52,7 +52,7 @@ Pour tenter de prédire les prix futurs, nous allons utiliser les données expli
 
 ## Rapport
 
-Le rapport est disponible sous format pdf ou ipynb selon les préférences et concerne les données de l'île-de-France. (75, 77, 78, 91, 92, 93, 94, 95)
+Le rapport est disponible sous format [pdf](ML_Real_Estate_Forecasting.pdf) ou [ipynb](ML_Predictions_Notebook.ipynb) selon les préférences et concerne les données de l'île-de-France. (75, 77, 78, 91, 92, 93, 94, 95)
 
 ### Présentation
 
