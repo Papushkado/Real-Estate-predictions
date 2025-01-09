@@ -10,6 +10,7 @@ Machine Learning project for M2 actuarial ISUP
   - [Rapport](#rapport)
     - [Présentation](#présentation)
     - [Conclusion](#conclusion)
+  - [Code](#code)
 - [Data Visualisation](#data-visualisation)
 
 
@@ -78,7 +79,14 @@ Cette faible influence des indicateurs économiques traditionnels (taux directeu
 
 La comparaison entre Paris (médiane ~10,000€/m²) et sa périphérie (2,500-5,000€/m²) illustre une forte segmentation géographique. L'évolution 2014-2024 montre une hausse continue des prix (+29%), accélérée post-2020, témoignant d'un marché dynamique malgré les crises.
 
-Bien que performant, le modèle pourrait être amélioré par l'intégration de données locales (transports, services) et une segmentation plus fine. 
+Bien que performant, le modèle pourrait être amélioré par l'intégration de données locales (transports, services) et une segmentation plus fine.
+
+## Code 
+
+Pour lancer le notebook : 
+
+1. Run le fichier [preprocess.py](./processed_data/preprocess.py) 
+2. Run le [notebook](ML_Predictions_Notebook.ipynb)
 
 
 --- 
