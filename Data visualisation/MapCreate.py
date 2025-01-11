@@ -11,7 +11,7 @@ import numpy as np
 
 df = pd.read_csv("mutations_d75.csv", delimiter=';')
 
-with open("Paris.p", 'rb') as file:
+with open("/departements/Paris.p", 'rb') as file:
     gdf_paris = pickle.load(file)
 
 
