@@ -50,11 +50,9 @@ print("NaN dans Locaux : " +str(df_locaux['surface'].isna().sum()))
 
 
 # Étape de traitement des NaN ou infinies
-# Remplacer les valeurs infinies par NaN
+
 df_logements = df_logements.replace([np.inf, -np.inf], np.nan)
 df_locaux = df_locaux.replace([np.inf, -np.inf], np.nan)
-
-# Remplacer les NaN par 0 dans les colonnes pertinentes (ici, surface)
 df_logements['surface'].fillna(0, inplace=True)
 df_locaux['surface'].fillna(0, inplace=True)
 
@@ -63,7 +61,6 @@ df_logements = df_logements[['valeurfonc', 'nbdispo', 'nbcomm', 'surface']]  # S
 X_logements = df_logements.drop(columns='valeurfonc')
 y_logements = df_logements['valeurfonc']
 
-# Séparer les données pour l'entraînement et les tests
 X_train, X_test, y_train, y_test = train_test_split(X_logements, y_logements, test_size=0.2, random_state=42)
 
 #################################################### Debug 
