@@ -229,7 +229,7 @@ def main():
     df = load_department_data(department_files)
     
     print("\nPreparation des donnees")
-    df_residential = prepare_data(df, RESIDENTIAL_PROPERTIES)")
+    df_residential = prepare_data(df, RESIDENTIAL_PROPERTIES)
     df_commercial = prepare_data(df, COMMERCIAL_PROPERTIES)
     
     feature_processor_residential = FeatureProcessor()
