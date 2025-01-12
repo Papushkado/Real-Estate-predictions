@@ -12,6 +12,11 @@ Machine Learning project for M2 actuarial ISUP
     - [Conclusion](#conclusion)
   - [Code](#code)
 - [Data Visualisation](#data-visualisation)
+  - [Lancer le site en local](#lancer-le-site-en-local)
+  - [Architecture](#architecture)
+    - [Onglet de prédiction des biens résidentiels](#onglet-de-prédiction-des-biens-résidentiels)
+    - [Onglet de prédiction des biens commerciaux](#onglet-de-prédiction-des-biens-commerciaux)
+    - [Onglet d'explication de notre modèle](#onglet-dexplication-de-notre-modèle)
 
 
 ---
@@ -93,3 +98,36 @@ Pour lancer le notebook :
 
 # Data Visualisation
 
+## Lancer le site en local
+
+Pour lancer le site en local, il suffit de se placer dans le dossier website via la commande :
+
+```{sh}
+cd '.\Data visualisation\website\'
+```
+
+Puis de lancer la commande : 
+
+```{sh}
+npm run dev 
+```
+
+Toutes les dépendances et packages nécessaires se trouvent dans [package.json]
+
+
+## Architecture 
+
+Notre site dispose de trois onglets : 
+
+### Onglet de prédiction des biens résidentiels
+
+![alt text](image.png)
+
+
+### Onglet de prédiction des biens commerciaux
+
+![alt text](image-1.png)
+
+### Onglet d'explication de notre modèle 
+
+![alt text](image-2.png)
