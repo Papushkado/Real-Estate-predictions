@@ -48,6 +48,7 @@ Voici le [lien](https://datafoncier.cerema.fr/donnees/autres-donnees-foncieres/d
 
 Les données se trouvent dans data. Pour les fichiers de transactions sont de la forme mutations_d{departement}.csv et sont **à jour jusqu'à octobre 2024**.
 
+
 ### Autres données
 
 Pour tenter de prédire les prix futurs, nous allons utiliser les données explicatives suivantes (les liens de téléchargements sont disponibles en cliquant sur le nom):
@@ -97,6 +98,8 @@ Pour lancer le notebook :
 --- 
 
 # Data Visualisation
+
+**Remarques :** Les données pour Paris sont disposibles dans cette [archive](./data/mutations_d75.zip)
 
 ## Lancer le site en local
 
