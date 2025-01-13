@@ -11,7 +11,7 @@ const RealEstateApp = () => {
     // Charger les données des prix
     const loadData = async () => {
       try {
-        const response = await fetch('/Real-ESTATE-PREDICTIONS/property_prices.json');
+        const response = await fetch('/property_prices.json');
         const data = await response.json();
         setPropertyData(data);
       } catch (error) {

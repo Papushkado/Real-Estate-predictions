@@ -191,9 +191,7 @@ const PriceMap = ({ data, propertyType }) => {
     // Charger et afficher les données GeoJSON
     const loadGeoJson = async () => {
       try {
-        const base = import.meta.env.BASE_URL || '/';
-        const response = await fetch(`${base}paris-districts.geojson`);
-        
+        const response = await fetch('/paris-districts.geojson');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
