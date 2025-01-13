@@ -99,17 +99,13 @@ Pour lancer le notebook :
 
 # Data Visualisation
 
+Le site est disponible jusqu'au 13 février à cette [adresse](https://real-estate-prediction-paris.netlify.app/)
+
 **Remarques :** Les données pour Paris sont disposibles dans cette [archive](./data/mutations_d75.zip)
 
 ## Lancer le site en local
 
 Pour lancer le site en local, il suffit de se placer dans le dossier website via la commande :
-
-```{sh}
-cd '.\Data visualisation\website\'
-```
-
-Puis de lancer la commande : 
 
 ```{sh}
 npm run dev 
